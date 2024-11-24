@@ -13,7 +13,7 @@ public class Vehicle : MonoBehaviour
     public float speed;
     public float turnSpeed;
     public float speedRatio;
-    public float fakeSpeed;
+    float fakeSpeed;
     public AnimationCurve enginePitchCurve;
     public TMP_Text speedNumber;
 
